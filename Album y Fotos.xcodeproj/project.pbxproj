@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47DCD3511992FA27007B1326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DCD3501992FA27007B1326 /* Foundation.framework */; };
+		47DCD3531992FA27007B1326 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DCD3521992FA27007B1326 /* CoreGraphics.framework */; };
+		47DCD3551992FA27007B1326 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DCD3541992FA27007B1326 /* UIKit.framework */; };
+		47DCD3571992FA27007B1326 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DCD3561992FA27007B1326 /* CoreData.framework */; };
+		47DCD35D1992FA27007B1326 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47DCD35B1992FA27007B1326 /* InfoPlist.strings */; };
+		47DCD35F1992FA27007B1326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DCD35E1992FA27007B1326 /* main.m */; };
+		47DCD3631992FA27007B1326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DCD3621992FA27007B1326 /* AppDelegate.m */; };
+		47DCD3661992FA27007B1326 /* Album_y_Fotos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47DCD3641992FA27007B1326 /* Album_y_Fotos.xcdatamodeld */; };
+		47DCD3681992FA27007B1326 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DCD3671992FA27007B1326 /* Images.xcassets */; };
+		47DCD36F1992FA27007B1326 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DCD36E1992FA27007B1326 /* XCTest.framework */; };
+		47DCD3701992FA27007B1326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DCD3501992FA27007B1326 /* Foundation.framework */; };
+		47DCD3711992FA27007B1326 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DCD3541992FA27007B1326 /* UIKit.framework */; };
+		47DCD3721992FA27007B1326 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DCD3561992FA27007B1326 /* CoreData.framework */; };
+		47DCD37A1992FA27007B1326 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47DCD3781992FA27007B1326 /* InfoPlist.strings */; };
+		47DCD37C1992FA27007B1326 /* Album_y_FotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DCD37B1992FA27007B1326 /* Album_y_FotosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47DCD3731992FA27007B1326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47DCD3451992FA27007B1326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47DCD34C1992FA27007B1326;
+			remoteInfo = "Album y Fotos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47DCD34D1992FA27007B1326 /* Album y Fotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Album y Fotos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DCD3501992FA27007B1326 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47DCD3521992FA27007B1326 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47DCD3541992FA27007B1326 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47DCD3561992FA27007B1326 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		47DCD35A1992FA27007B1326 /* Album y Fotos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Album y Fotos-Info.plist"; sourceTree = "<group>"; };
+		47DCD35C1992FA27007B1326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47DCD35E1992FA27007B1326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47DCD3601992FA27007B1326 /* Album y Fotos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Album y Fotos-Prefix.pch"; sourceTree = "<group>"; };
+		47DCD3611992FA27007B1326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47DCD3621992FA27007B1326 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47DCD3651992FA27007B1326 /* Album_y_Fotos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Album_y_Fotos.xcdatamodel; sourceTree = "<group>"; };
+		47DCD3671992FA27007B1326 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		47DCD36D1992FA27007B1326 /* Album y FotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Album y FotosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DCD36E1992FA27007B1326 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		47DCD3771992FA27007B1326 /* Album y FotosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Album y FotosTests-Info.plist"; sourceTree = "<group>"; };
+		47DCD3791992FA27007B1326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47DCD37B1992FA27007B1326 /* Album_y_FotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Album_y_FotosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47DCD34A1992FA27007B1326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DCD3531992FA27007B1326 /* CoreGraphics.framework in Frameworks */,
+				47DCD3571992FA27007B1326 /* CoreData.framework in Frameworks */,
+				47DCD3551992FA27007B1326 /* UIKit.framework in Frameworks */,
+				47DCD3511992FA27007B1326 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47DCD36A1992FA27007B1326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DCD36F1992FA27007B1326 /* XCTest.framework in Frameworks */,
+				47DCD3721992FA27007B1326 /* CoreData.framework in Frameworks */,
+				47DCD3711992FA27007B1326 /* UIKit.framework in Frameworks */,
+				47DCD3701992FA27007B1326 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47DCD3441992FA27007B1326 = {
+			isa = PBXGroup;
+			children = (
+				47DCD3581992FA27007B1326 /* Album y Fotos */,
+				47DCD3751992FA27007B1326 /* Album y FotosTests */,
+				47DCD34F1992FA27007B1326 /* Frameworks */,
+				47DCD34E1992FA27007B1326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47DCD34E1992FA27007B1326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47DCD34D1992FA27007B1326 /* Album y Fotos.app */,
+				47DCD36D1992FA27007B1326 /* Album y FotosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47DCD34F1992FA27007B1326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47DCD3501992FA27007B1326 /* Foundation.framework */,
+				47DCD3521992FA27007B1326 /* CoreGraphics.framework */,
+				47DCD3541992FA27007B1326 /* UIKit.framework */,
+				47DCD3561992FA27007B1326 /* CoreData.framework */,
+				47DCD36E1992FA27007B1326 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47DCD3581992FA27007B1326 /* Album y Fotos */ = {
+			isa = PBXGroup;
+			children = (
+				47DCD3611992FA27007B1326 /* AppDelegate.h */,
+				47DCD3621992FA27007B1326 /* AppDelegate.m */,
+				47DCD3671992FA27007B1326 /* Images.xcassets */,
+				47DCD3641992FA27007B1326 /* Album_y_Fotos.xcdatamodeld */,
+				47DCD3591992FA27007B1326 /* Supporting Files */,
+			);
+			path = "Album y Fotos";
+			sourceTree = "<group>";
+		};
+		47DCD3591992FA27007B1326 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47DCD35A1992FA27007B1326 /* Album y Fotos-Info.plist */,
+				47DCD35B1992FA27007B1326 /* InfoPlist.strings */,
+				47DCD35E1992FA27007B1326 /* main.m */,
+				47DCD3601992FA27007B1326 /* Album y Fotos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47DCD3751992FA27007B1326 /* Album y FotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				47DCD37B1992FA27007B1326 /* Album_y_FotosTests.m */,
+				47DCD3761992FA27007B1326 /* Supporting Files */,
+			);
+			path = "Album y FotosTests";
+			sourceTree = "<group>";
+		};
+		47DCD3761992FA27007B1326 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47DCD3771992FA27007B1326 /* Album y FotosTests-Info.plist */,
+				47DCD3781992FA27007B1326 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47DCD34C1992FA27007B1326 /* Album y Fotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47DCD37F1992FA27007B1326 /* Build configuration list for PBXNativeTarget "Album y Fotos" */;
+			buildPhases = (
+				47DCD3491992FA27007B1326 /* Sources */,
+				47DCD34A1992FA27007B1326 /* Frameworks */,
+				47DCD34B1992FA27007B1326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Album y Fotos";
+			productName = "Album y Fotos";
+			productReference = 47DCD34D1992FA27007B1326 /* Album y Fotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47DCD36C1992FA27007B1326 /* Album y FotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47DCD3821992FA27007B1326 /* Build configuration list for PBXNativeTarget "Album y FotosTests" */;
+			buildPhases = (
+				47DCD3691992FA27007B1326 /* Sources */,
+				47DCD36A1992FA27007B1326 /* Frameworks */,
+				47DCD36B1992FA27007B1326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47DCD3741992FA27007B1326 /* PBXTargetDependency */,
+			);
+			name = "Album y FotosTests";
+			productName = "Album y FotosTests";
+			productReference = 47DCD36D1992FA27007B1326 /* Album y FotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47DCD3451992FA27007B1326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Edwjon;
+				TargetAttributes = {
+					47DCD36C1992FA27007B1326 = {
+						TestTargetID = 47DCD34C1992FA27007B1326;
+					};
+				};
+			};
+			buildConfigurationList = 47DCD3481992FA27007B1326 /* Build configuration list for PBXProject "Album y Fotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47DCD3441992FA27007B1326;
+			productRefGroup = 47DCD34E1992FA27007B1326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47DCD34C1992FA27007B1326 /* Album y Fotos */,
+				47DCD36C1992FA27007B1326 /* Album y FotosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47DCD34B1992FA27007B1326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DCD35D1992FA27007B1326 /* InfoPlist.strings in Resources */,
+				47DCD3681992FA27007B1326 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47DCD36B1992FA27007B1326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DCD37A1992FA27007B1326 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47DCD3491992FA27007B1326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DCD3631992FA27007B1326 /* AppDelegate.m in Sources */,
+				47DCD3661992FA27007B1326 /* Album_y_Fotos.xcdatamodeld in Sources */,
+				47DCD35F1992FA27007B1326 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47DCD3691992FA27007B1326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DCD37C1992FA27007B1326 /* Album_y_FotosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47DCD3741992FA27007B1326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47DCD34C1992FA27007B1326 /* Album y Fotos */;
+			targetProxy = 47DCD3731992FA27007B1326 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47DCD35B1992FA27007B1326 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47DCD35C1992FA27007B1326 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47DCD3781992FA27007B1326 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47DCD3791992FA27007B1326 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47DCD37D1992FA27007B1326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47DCD37E1992FA27007B1326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47DCD3801992FA27007B1326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Album y Fotos/Album y Fotos-Prefix.pch";
+				INFOPLIST_FILE = "Album y Fotos/Album y Fotos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47DCD3811992FA27007B1326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Album y Fotos/Album y Fotos-Prefix.pch";
+				INFOPLIST_FILE = "Album y Fotos/Album y Fotos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		47DCD3831992FA27007B1326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Album y Fotos.app/Album y Fotos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Album y Fotos/Album y Fotos-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Album y FotosTests/Album y FotosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		47DCD3841992FA27007B1326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Album y Fotos.app/Album y Fotos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Album y Fotos/Album y Fotos-Prefix.pch";
+				INFOPLIST_FILE = "Album y FotosTests/Album y FotosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47DCD3481992FA27007B1326 /* Build configuration list for PBXProject "Album y Fotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47DCD37D1992FA27007B1326 /* Debug */,
+				47DCD37E1992FA27007B1326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47DCD37F1992FA27007B1326 /* Build configuration list for PBXNativeTarget "Album y Fotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47DCD3801992FA27007B1326 /* Debug */,
+				47DCD3811992FA27007B1326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47DCD3821992FA27007B1326 /* Build configuration list for PBXNativeTarget "Album y FotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47DCD3831992FA27007B1326 /* Debug */,
+				47DCD3841992FA27007B1326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47DCD3641992FA27007B1326 /* Album_y_Fotos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47DCD3651992FA27007B1326 /* Album_y_Fotos.xcdatamodel */,
+			);
+			currentVersion = 47DCD3651992FA27007B1326 /* Album_y_Fotos.xcdatamodel */;
+			path = Album_y_Fotos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47DCD3451992FA27007B1326 /* Project object */;
+}
