@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		473D28FE19AD8C9800C82F8D /* filtrosCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 473D28FD19AD8C9800C82F8D /* filtrosCollectionVC.m */; };
 		47DCD3511992FA27007B1326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DCD3501992FA27007B1326 /* Foundation.framework */; };
 		47DCD3531992FA27007B1326 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DCD3521992FA27007B1326 /* CoreGraphics.framework */; };
 		47DCD3551992FA27007B1326 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DCD3541992FA27007B1326 /* UIKit.framework */; };
@@ -22,6 +23,15 @@
 		47DCD3721992FA27007B1326 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DCD3561992FA27007B1326 /* CoreData.framework */; };
 		47DCD37A1992FA27007B1326 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47DCD3781992FA27007B1326 /* InfoPlist.strings */; };
 		47DCD37C1992FA27007B1326 /* Album_y_FotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DCD37B1992FA27007B1326 /* Album_y_FotosTests.m */; };
+		47DCD3861992FAAF007B1326 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DCD3851992FAAF007B1326 /* Storyboard.storyboard */; };
+		47DCD3891992FB0A007B1326 /* albumesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DCD3881992FB09007B1326 /* albumesTableViewController.m */; };
+		47DCD38C1992FB8C007B1326 /* collectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DCD38B1992FB8C007B1326 /* collectionViewController.m */; };
+		47DCD38F1992FBA5007B1326 /* collectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DCD38E1992FBA5007B1326 /* collectionViewCell.m */; };
+		47DCD3921992FBCA007B1326 /* ayudaNSManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DCD3911992FBCA007B1326 /* ayudaNSManagedObject.m */; };
+		47DCD3951992FC0D007B1326 /* PictureDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DCD3941992FC0D007B1326 /* PictureDataTransformer.m */; };
+		47DCD3A7199304C1007B1326 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DCD3A6199304C1007B1326 /* Album.m */; };
+		47DCD3AA199304C1007B1326 /* Fotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DCD3A9199304C1007B1326 /* Fotos.m */; };
+		47F6DDC61994328400150358 /* detalleFotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F6DDC51994328400150358 /* detalleFotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		473D28FC19AD8C9800C82F8D /* filtrosCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filtrosCollectionVC.h; sourceTree = "<group>"; };
+		473D28FD19AD8C9800C82F8D /* filtrosCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = filtrosCollectionVC.m; sourceTree = "<group>"; };
 		47DCD34D1992FA27007B1326 /* Album y Fotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Album y Fotos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47DCD3501992FA27007B1326 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		47DCD3521992FA27007B1326 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +65,23 @@
 		47DCD3771992FA27007B1326 /* Album y FotosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Album y FotosTests-Info.plist"; sourceTree = "<group>"; };
 		47DCD3791992FA27007B1326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47DCD37B1992FA27007B1326 /* Album_y_FotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Album_y_FotosTests.m; sourceTree = "<group>"; };
+		47DCD3851992FAAF007B1326 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		47DCD3871992FB09007B1326 /* albumesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = albumesTableViewController.h; sourceTree = "<group>"; };
+		47DCD3881992FB09007B1326 /* albumesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = albumesTableViewController.m; sourceTree = "<group>"; };
+		47DCD38A1992FB8C007B1326 /* collectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionViewController.h; sourceTree = "<group>"; };
+		47DCD38B1992FB8C007B1326 /* collectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = collectionViewController.m; sourceTree = "<group>"; };
+		47DCD38D1992FBA5007B1326 /* collectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionViewCell.h; sourceTree = "<group>"; };
+		47DCD38E1992FBA5007B1326 /* collectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = collectionViewCell.m; sourceTree = "<group>"; };
+		47DCD3901992FBCA007B1326 /* ayudaNSManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ayudaNSManagedObject.h; sourceTree = "<group>"; };
+		47DCD3911992FBCA007B1326 /* ayudaNSManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ayudaNSManagedObject.m; sourceTree = "<group>"; };
+		47DCD3931992FC0D007B1326 /* PictureDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureDataTransformer.h; sourceTree = "<group>"; };
+		47DCD3941992FC0D007B1326 /* PictureDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureDataTransformer.m; sourceTree = "<group>"; };
+		47DCD3A5199304C1007B1326 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		47DCD3A6199304C1007B1326 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		47DCD3A8199304C1007B1326 /* Fotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fotos.h; sourceTree = "<group>"; };
+		47DCD3A9199304C1007B1326 /* Fotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fotos.m; sourceTree = "<group>"; };
+		47F6DDC41994328400150358 /* detalleFotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detalleFotoViewController.h; sourceTree = "<group>"; };
+		47F6DDC51994328400150358 /* detalleFotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detalleFotoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +146,27 @@
 			children = (
 				47DCD3611992FA27007B1326 /* AppDelegate.h */,
 				47DCD3621992FA27007B1326 /* AppDelegate.m */,
+				47DCD3851992FAAF007B1326 /* Storyboard.storyboard */,
+				47DCD3871992FB09007B1326 /* albumesTableViewController.h */,
+				47DCD3881992FB09007B1326 /* albumesTableViewController.m */,
+				47DCD38A1992FB8C007B1326 /* collectionViewController.h */,
+				47DCD38B1992FB8C007B1326 /* collectionViewController.m */,
+				47F6DDC41994328400150358 /* detalleFotoViewController.h */,
+				47F6DDC51994328400150358 /* detalleFotoViewController.m */,
+				473D28FC19AD8C9800C82F8D /* filtrosCollectionVC.h */,
+				473D28FD19AD8C9800C82F8D /* filtrosCollectionVC.m */,
+				47DCD38D1992FBA5007B1326 /* collectionViewCell.h */,
+				47DCD38E1992FBA5007B1326 /* collectionViewCell.m */,
+				47DCD3901992FBCA007B1326 /* ayudaNSManagedObject.h */,
+				47DCD3911992FBCA007B1326 /* ayudaNSManagedObject.m */,
+				47DCD3931992FC0D007B1326 /* PictureDataTransformer.h */,
+				47DCD3941992FC0D007B1326 /* PictureDataTransformer.m */,
 				47DCD3671992FA27007B1326 /* Images.xcassets */,
 				47DCD3641992FA27007B1326 /* Album_y_Fotos.xcdatamodeld */,
+				47DCD3A8199304C1007B1326 /* Fotos.h */,
+				47DCD3A9199304C1007B1326 /* Fotos.m */,
+				47DCD3A5199304C1007B1326 /* Album.h */,
+				47DCD3A6199304C1007B1326 /* Album.m */,
 				47DCD3591992FA27007B1326 /* Supporting Files */,
 			);
 			path = "Album y Fotos";
@@ -230,6 +278,7 @@
 			files = (
 				47DCD35D1992FA27007B1326 /* InfoPlist.strings in Resources */,
 				47DCD3681992FA27007B1326 /* Images.xcassets in Resources */,
+				47DCD3861992FAAF007B1326 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,9 +297,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47DCD38F1992FBA5007B1326 /* collectionViewCell.m in Sources */,
+				47DCD3921992FBCA007B1326 /* ayudaNSManagedObject.m in Sources */,
 				47DCD3631992FA27007B1326 /* AppDelegate.m in Sources */,
+				47DCD3AA199304C1007B1326 /* Fotos.m in Sources */,
+				473D28FE19AD8C9800C82F8D /* filtrosCollectionVC.m in Sources */,
 				47DCD3661992FA27007B1326 /* Album_y_Fotos.xcdatamodeld in Sources */,
+				47DCD3951992FC0D007B1326 /* PictureDataTransformer.m in Sources */,
 				47DCD35F1992FA27007B1326 /* main.m in Sources */,
+				47F6DDC61994328400150358 /* detalleFotoViewController.m in Sources */,
+				47DCD3A7199304C1007B1326 /* Album.m in Sources */,
+				47DCD3891992FB0A007B1326 /* albumesTableViewController.m in Sources */,
+				47DCD38C1992FB8C007B1326 /* collectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +505,7 @@
 				47DCD3811992FA27007B1326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47DCD3821992FA27007B1326 /* Build configuration list for PBXNativeTarget "Album y FotosTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +514,7 @@
 				47DCD3841992FA27007B1326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
